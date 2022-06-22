@@ -1,0 +1,42 @@
+.Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HeaderTable {
+    padding: 15px;
+    background-color: #34495e;
+    border-radius: 3px;
+}
+
+.HeaderTable table {
+    border-collapse: collapse;
+    color: #fff;
+
+}
+
+.HeaderTable tr th {
+    padding: 8px 15px;
+}
+
+.HeaderTable tr th div {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderTable tr th div div {
+    width: 2px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.HeaderTable thead {
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+}

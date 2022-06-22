@@ -1,0 +1,16 @@
+.PrimaryButton {
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px 65px;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    cursor: pointer;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 6px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.PrimaryButton:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,43 @@
+/*   ALERT ANIMATION   */
+
+.alert-enter {
+    transform: translateY(-70px);
+}
+
+.alert-enter-active {
+    animation: alert-enter 500ms ease-out;
+}
+
+.alert-enter-done {
+    transform: translateY(0);
+}
+
+.alert-exit {
+    transform: translateY(0);
+}
+
+.alert-exit-active {
+    animation: alert-exit 500ms ease-out;
+}
+
+.alert-exit-done {
+    transform: translateY(-70px);
+}
+
+@keyframes alert-enter {
+    from {
+        transform: translateY(-70px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes alert-exit {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-70px);
+    }
+}

@@ -1,0 +1,38 @@
+.modalScore {
+    color: #fff;
+    max-width: 300px;
+    width: calc(100% - 30px);
+    background: #34495e;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modalScore .modalScore__primaryButton-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.modalScore h1 {
+    text-align: center;
+}
+
+.modalScore .rating {
+    border-radius: 6px;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 8px 20px;
+    text-shadow: 2px 0 5px #000, -2px 0 5px #000, 0 -2px 5px #000, 0 2px 5px #000;
+}
+
+.modalScore table {
+    width: 100%;
+    font-size: 22px;
+    border-radius: 6px;
+    padding-bottom: 30px;
+}
+
+.modalScore table tr th {
+    padding: 8px;
+}
+
+/*# sourceMappingURL=ModalScore.css.map */
